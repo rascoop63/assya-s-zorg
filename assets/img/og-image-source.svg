@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b3f38"/>
+      <stop offset="100%" stop-color="#123029"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="120" r="220" fill="#cf8b52" opacity="0.14"/>
+  <circle cx="1040" cy="120" r="130" fill="#f6e9dc" opacity="0.10"/>
+
+  <path d="M0 470c220-70 340 40 560-10s360-90 640-30v200H0z" fill="#234f46" opacity="0.55"/>
+
+  <g transform="translate(90,80)">
+    <rect width="88" height="88" rx="22" fill="#2c6358"/>
+    <path d="M18 66c14-5 19-19 19-33s9-27 23-27 19 14 19 27" fill="none" stroke="#f6e9dc" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" transform="translate(6,4)"/>
+    <circle cx="24" cy="70" r="5" fill="#cf8b52"/>
+    <circle cx="66" cy="34" r="5" fill="#f6e9dc"/>
+  </g>
+
+  <text x="90" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="58" fill="#faf9f6" font-weight="600">[BEDRIJFSNAAM]</text>
+  <text x="90" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#f6e9dc" font-style="italic">Zelfstandig Jeugdprofessional &amp; Persoonlijk Begeleider</text>
+
+  <text x="90" y="410" font-family="Arial, sans-serif" font-size="24" fill="#c9d6d0">HBO-opgeleid  ·  SKJ-geregistreerd  ·  Jeugdzorg &amp; Sociaal Domein</text>
+
+  <rect x="90" y="450" width="230" height="4" fill="#cf8b52"/>
+</svg>
