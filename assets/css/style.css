@@ -286,6 +286,45 @@ section.tight { padding-block: var(--space-lg); }
   color: var(--color-ink-500);
 }
 
+/* Officieel logo — het logo zelf is nooit vervormd/aangepast; de kleine lichte
+   "kaart" eromheen is er alleen zodat het logo (dat is ontworpen op een lichte
+   ondergrond) ook leesbaar blijft op de donkere header/footer. */
+.brand-logo-frame {
+  display: inline-flex;
+  align-items: center;
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  padding: 0.35em 0.7em;
+  box-shadow: var(--shadow-sm);
+  flex-shrink: 0;
+}
+.brand-logo {
+  display: block;
+  height: 40px;
+  width: auto;
+}
+@media (min-width: 900px) {
+  .brand-logo { height: 48px; }
+}
+
+.footer-logo-frame {
+  display: inline-flex;
+  align-items: center;
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  padding: 0.4em 0.85em;
+  margin-bottom: var(--space-sm);
+}
+.footer-logo { display: block; height: 46px; width: auto; }
+
+.hero-logo {
+  display: block;
+  height: auto;
+  width: 100%;
+  max-width: 240px;
+  margin-bottom: var(--space-md);
+}
+
 .nav-toggle {
   display: inline-flex;
   align-items: center;
